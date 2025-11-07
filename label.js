@@ -7,8 +7,8 @@
   position: fixed;
   bottom: 100px;
   right: 10px;
-  width: 68px;
-  height: 68px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   cursor: pointer;
   z-index: 1000;
@@ -59,18 +59,19 @@
 }
 
 .${i} {
-  width: 68px;
-  height: 68px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   display: none;
 }
 
 .${r} {
-  width: 375px;
+  width: 70%;
+  min-width: 700px;
   height: min(600px, 70vh);
   position: fixed;
   right: 15px;
-  bottom: 180px;
+  bottom: 210px;
   border-radius: 12px;
   opacity: 0;
   pointer-events: none;
